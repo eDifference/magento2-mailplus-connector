@@ -2,7 +2,6 @@
   "name": "edifference/mailplus-connector",
   "description": "The MailPlus connector for magento 2",
   "type": "magento2-module",
-  "version": "1.4.6",
   "license": [
     "OSL-3.0"
   ],
