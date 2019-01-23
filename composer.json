@@ -1,5 +1,5 @@
 {
-  "name": "mailplus/mailplus-connector",
+  "name": "edifference/mailplus-connector",
   "description": "The MailPlus connector for magento 2",
   "type": "magento2-module",
   "version": "1.4.6",
@@ -7,13 +7,8 @@
     "OSL-3.0"
   ],
   "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
-    "magento/magento-composer-installer": "*",
-    "magento/framework": "^101.0",
-    "magento/module-newsletter": "^100.0",
-    "magento/module-quote": "^101.0",
-    "magento/module-sales": "^101.0",
-    "magento/module-webapi": "^100.0"
+    "php": "~5.5.0|~5.6.0|>=7.0.0",
+    "magento/magento-composer-installer": "*"
   },
   "autoload": {
     "files": [
