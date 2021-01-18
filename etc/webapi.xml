@@ -11,13 +11,13 @@
 	<route url="/V1/mailplus/subscribers/:id" method="PUT">
 		<service class="MailPlus\MailPlus\Api\SubscriberRepositoryInterface" method="save"/>
 		<resources>
-			<resource ref="MailPlus_MailPlus::subscriber"/>
+			<resource ref="Magento_Newsletter::subscriber"/>
 		</resources>
 	</route>
 	<route url="/V1/mailplus/orders" method="GET">
 		<service class="MailPlus\MailPlus\Api\ExtendedOrderRepositoryInterface" method="getList"/>
 		<resources>
-			<resource ref="Magento_Sales::order"/>
+			<resource ref="Magento_Sales::sales"/>
 		</resources>
 	</route>
 	<route url="/V1/mailplus/product-image/:storeId/:productId" method="GET">
